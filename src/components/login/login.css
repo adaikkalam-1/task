@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+
+    background-image: url("f2.jpg");
+    height: 110vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+    
+    
+}
+.Container_fluid{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 90px;
+    color:rgb(226, 147, 43);
+}
+.btn{
+    font-size: 20px;
+    margin-top: 17px;
+    color: #fff;
+    background: blueviolet;
+    padding: 10px 10px;
+    width: 40%;
+    border: none;
+    border: 2px solid mediumorchid;
+    border-radius: 10px;
+}
+.btn:hover{
+    
+    background-color:#e554;
+    color: blueviolet;
+
+}
